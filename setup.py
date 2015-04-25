@@ -11,7 +11,7 @@ instructions.
 
 setup(
     name="gc-prometheus",
-    version="0.0.1",
+    version="0.1.0",
     author="Uriel Corfa",
     author_email="uriel@corfa.fr",
     description=(
@@ -26,7 +26,7 @@ setup(
         "prometheus_client>=0.0.9",
     ],
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Intended Audience :: Information Technology",
         "Intended Audience :: System Administrators",
