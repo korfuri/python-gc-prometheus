@@ -14,6 +14,10 @@ pip install gc_prometheus
 
 Simply `import gc_prometheus` to register the metrics.
 
+On Python 3.3 and above, more metrics are available, regarding the
+time spent in the garbage collector. You can `import
+gc_prometheus.profile` to register them.
+
 See the prometheus_client
 [documentation](https://github.com/prometheus/client_python) to see
 how to export the metrics via an HTTP server. If you're using Django,
