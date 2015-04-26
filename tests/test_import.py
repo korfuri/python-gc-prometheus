@@ -1,6 +1,7 @@
 import sys
 import unittest
 
+
 class TestImports(unittest.TestCase):
 
     @unittest.skipIf(sys.version_info >= (3, 3),
