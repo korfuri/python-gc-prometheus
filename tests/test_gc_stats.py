@@ -1,7 +1,7 @@
 import gc
 import unittest
 from prometheus_client import REGISTRY
-import gc_prometheus
+import gc_prometheus.stats
 
 
 class TestGcPrometheus(unittest.TestCase):
